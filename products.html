@@ -1,65 +1,46 @@
-<!-- products.html -->
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Webshop — Products</title>
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Store | Products</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-<div class="container">
-<h1 class="logo">Webshop</h1>
-<nav class="main-nav">
-<a href="home.html">Home</a>
-<a href="products.html">Products</a>
-</nav>
-</div>
-</header>
 
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Promotions</a>
+    </nav>
+  </header>
 
-<main class="container">
-<section class="products-list">
-<h2>All Products</h2>
-<div class="grid">
-<!-- repeat product cards as needed -->
-<article class="card">
-<img src="https://via.placeholder.com/300x180" alt="Product A">
-<h4>Product A</h4>
-<p>Price: $19.99</p>
-<button class="btn small">Add to cart</button>
-</article>
+  <section class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/160" alt="iPhone 14">
+      <h3>iPhone 14</h3>
+      <p>Powerful and stylish, starting from Rs. 250,000</p>
+    </div>
 
+    <div class="product-card">
+      <img src="https://via.placeholder.com/160" alt="Samsung S23">
+      <h3>Samsung S23</h3>
+      <p>Next-level performance, starting from Rs. 220,000</p>
+    </div>
 
-<article class="card">
-<img src="https://via.placeholder.com/300x180" alt="Product B">
-<h4>Product B</h4>
-<p>Price: $29.99</p>
-<button class="btn small">Add to cart</button>
-</article>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/160" alt="Oppo F21 Pro">
+      <h3>Oppo F21 Pro</h3>
+      <p>Sleek design and camera, starting from Rs. 90,000</p>
+    </div>
+  </section>
 
+  <footer>
+    <p>© 2025 Mobile Store | Designed by Our Team</p>
+  </footer>
 
-<article class="card">
-<img src="https://via.placeholder.com/300x180" alt="Product C">
-<h4>Product C</h4>
-<p>Price: $9.99</p>
-<button class="btn small">Add to cart</button>
-</article>
-
-
-<!-- add more cards or generate them dynamically -->
-</div>
-
-
-<p class="back-link"><a href="home.html">« Back to home</a></p>
-</section>
-</main>
-
-
-<footer class="site-footer">
-<div class="container">© <span id="year2"></span> Webshop</div>
-</footer>
-
-
-<script>
-document.getElementById('year2').textContent = new Date().getFullYear();
-</script>
 </body>
 </html>
