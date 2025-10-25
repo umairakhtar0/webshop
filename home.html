@@ -1,0 +1,52 @@
+<!-- home.html -->
+
+
+<main class="container">
+<section class="hero">
+<h2>Welcome to Webshop</h2>
+<p>Simple demo store. Check our featured products below.</p>
+<a class="btn" href="products.html">Browse Products</a>
+</section>
+
+
+<section class="featured">
+<h3>Featured</h3>
+<div class="grid">
+<article class="card">
+<img src="https://via.placeholder.com/300x180" alt="Product 1">
+<h4>Product 1</h4>
+<p>Short description of product 1.</p>
+<a class="btn small" href="products.html">View</a>
+</article>
+
+
+<article class="card">
+<img src="https://via.placeholder.com/300x180" alt="Product 2">
+<h4>Product 2</h4>
+<p>Short description of product 2.</p>
+<a class="btn small" href="products.html">View</a>
+</article>
+
+
+<article class="card">
+<img src="https://via.placeholder.com/300x180" alt="Product 3">
+<h4>Product 3</h4>
+<p>Short description of product 3.</p>
+<a class="btn small" href="products.html">View</a>
+</article>
+</div>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">© <span id="year"></span> Webshop</div>
+</footer>
+
+
+<script>
+// small script to update year
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
